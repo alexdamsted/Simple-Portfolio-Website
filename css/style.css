@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.container {
+  width: 90% !important;
+}
+
+html {
+  --gradient1: #e0e0e0;
+  --gradient2: rgb(255, 255, 255);
+}
+
+html[data-theme="light"] {
+  background: var(--bgColor);
+  --textColor: rgb(0, 0, 0);
+  --bgColor: rgb(255, 255, 255);
+  --gradient1: #e0e0e0;
+  --gradient2: rgb(255, 255, 255);
+  --iconColor: rgb(0, 0, 0);
+}
+
+html[data-theme="dark"] {
+  background: var(--bgColor);
+  --textColor: rgb(219, 219, 219);
+  --bgColor: rgb(31, 31, 31);
+  --gradient1: rgb(87, 87, 87);
+  --gradient2: rgb(31, 31, 31);
+  --iconColor: rgb(239, 163, 42);
+}
+
+.collapsible-body img {
+  /* border-radius: 15px; */
+}
+
+.switch input[type="checkbox"]:checked + .lever {
+  background-color: rgb(207, 166, 101) !important;
+}
+
+.switch input[type="checkbox"]:checked + .lever:after {
+  background-color: rgb(239, 163, 42) !important;
+}
+
+.icons {
+  color: var(--iconColor);
+}
+
+.hover-text-change:active {
+  text-decoration: underline grey;
+}
+
+.collapsible-header,
+.collapsible-body,
+.collapsible,
+ul.collapsible > li {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: var(--bgColor);
+  color: var(--textColor);
+}
+
+.hover-text-change:hover {
+  color: #a0a0a0;
+  text-decoration: underline #a0a0a0;
+}
+
+.hover-text-change {
+  color: var(--textColor);
+}
+
+.bio {
+  font-weight: 300;
+}
+
+.name {
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.hr-solid-horizontal {
+  border-bottom: 1px solid var(--gradient1);
+}
+
+.hr-gradient-vertical {
+  border-left: 1px solid transparent;
+  height: 500px;
+  border-image: linear-gradient(to bottom, var(--gradient1), var(--gradient2));
+  border-image-slice: 1;
+  margin-top: 15px;
+}
+
+.top-padding {
+  padding-top: 25px;
+}
+
+.full-width {
+  /* min-height: 100vh !important;
+  height: 100%; */
+}
