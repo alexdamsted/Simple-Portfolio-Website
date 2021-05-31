@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.height-change {
+  height: 450px !important;
+}
+
 .container {
   width: 90% !important;
 }
@@ -45,10 +49,6 @@ html[data-theme="dark"] {
   --iconColor: rgb(239, 163, 42);
 }
 
-.collapsible-body img {
-  /* border-radius: 15px; */
-}
-
 .switch input[type="checkbox"]:checked + .lever {
   background-color: rgb(207, 166, 101) !important;
 }
@@ -62,17 +62,10 @@ html[data-theme="dark"] {
 }
 
 .hover-text-change:active {
-  text-decoration: underline grey;
+  text-decoration: underline;
 }
 
-.collapsible-header,
-.collapsible-body,
-.collapsible,
-ul.collapsible > li {
-  margin: 0 !important;
-  padding: 0 !important;
-  border: 0 !important;
-  box-shadow: none !important;
+h6 {
   background: var(--bgColor);
   color: var(--textColor);
 }
@@ -109,9 +102,4 @@ ul.collapsible > li {
 
 .top-padding {
   padding-top: 25px;
-}
-
-.full-width {
-  /* min-height: 100vh !important;
-  height: 100%; */
 }
