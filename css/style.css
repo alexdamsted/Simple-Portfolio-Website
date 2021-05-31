@@ -5,6 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+}
 
 .icon-block {
   padding: 0 15px;
@@ -64,14 +70,17 @@ html[data-theme="dark"] {
 h6 {
   background: var(--bgColor);
   color: var(--textColor);
+  font-weight: 600;
+}
+
+h5 {
+  background: var(--bgColor);
+  color: var(--textColor);
+  font-weight: 600;
 }
 
 .hover-text-change:hover {
   text-decoration: underline;
-}
-
-.hover-text-change {
-  color: var(--textColor);
 }
 
 .bio {
@@ -79,8 +88,9 @@ h6 {
 }
 
 .name {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--textColor);
+  margin-bottom: 15px;
 }
 
 .hr-solid-horizontal {
