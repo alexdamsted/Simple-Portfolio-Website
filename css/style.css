@@ -46,23 +46,19 @@ html[data-theme="dark"] {
   --bgColor: rgb(31, 31, 31);
   --gradient1: rgb(87, 87, 87);
   --gradient2: rgb(31, 31, 31);
-  --iconColor: rgb(239, 163, 42);
+  --iconColor: rgb(219, 219, 219);
 }
 
 .switch input[type="checkbox"]:checked + .lever {
-  background-color: rgb(207, 166, 101) !important;
+  background-color: rgb(219, 219, 219) !important;
 }
 
 .switch input[type="checkbox"]:checked + .lever:after {
-  background-color: rgb(239, 163, 42) !important;
+  background-color: rgb(181, 181, 181) !important;
 }
 
 .icons {
   color: var(--iconColor);
-}
-
-.hover-text-change:active {
-  text-decoration: underline;
 }
 
 h6 {
@@ -71,8 +67,7 @@ h6 {
 }
 
 .hover-text-change:hover {
-  color: #a0a0a0;
-  text-decoration: underline #a0a0a0;
+  text-decoration: underline;
 }
 
 .hover-text-change {
