@@ -19,7 +19,7 @@ a {
 }
 
 .height-change {
-  height: 450px !important;
+  height: 550px !important;
 }
 
 .container {
@@ -90,8 +90,8 @@ h6 {
 .hr-gradient-vertical {
   border-left: 1px solid transparent;
   height: 500px;
-  border-image: linear-gradient(to bottom, var(--gradient1), var(--gradient2));
-  border-image-slice: 1;
+  /* border-image: linear-gradient(to bottom, var(--gradient1), var(--gradient2));
+  border-image-slice: 1; */
   margin-top: 15px;
 }
 
