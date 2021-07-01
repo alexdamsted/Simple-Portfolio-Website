@@ -1,0 +1,116 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+p {
+  font-weight: 400 !important;
+  font-size: 2rem;
+}
+
+a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.height-change {
+  height: 650px !important;
+}
+
+.container {
+  width: 90% !important;
+}
+
+html {
+  --gradient1: #e0e0e0;
+  --gradient2: rgb(255, 255, 255);
+}
+
+html[data-theme="light"] {
+  background: var(--bgColor);
+  --textColor: rgb(0, 0, 0);
+  --bgColor: rgb(255, 255, 255);
+  --gradient1: #e0e0e0;
+  --gradient2: rgb(255, 255, 255);
+  --iconColor: rgb(0, 0, 0);
+}
+
+html[data-theme="dark"] {
+  background: var(--bgColor);
+  --textColor: rgb(219, 219, 219);
+  --bgColor: rgb(31, 31, 31);
+  --gradient1: rgb(87, 87, 87);
+  --gradient2: rgb(31, 31, 31);
+  --iconColor: rgb(219, 219, 219);
+}
+
+.switch input[type="checkbox"]:checked + .lever {
+  background-color: rgb(219, 219, 219) !important;
+}
+
+.switch input[type="checkbox"]:checked + .lever:after {
+  background-color: rgb(181, 181, 181) !important;
+}
+
+.icons {
+  color: var(--iconColor);
+}
+
+h6 {
+  background: var(--bgColor);
+  color: var(--textColor);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h5 {
+  background: var(--bgColor);
+  color: var(--textColor);
+  font-weight: 600;
+}
+
+.hover-text-change:hover {
+  text-decoration: underline;
+}
+
+.bio {
+  font-weight: 300;
+}
+
+.name {
+  font-weight: 600;
+  color: var(--textColor);
+  margin-bottom: 15px;
+}
+
+.hr-solid-horizontal {
+  border-bottom: 1px solid var(--gradient1);
+}
+
+.hr-gradient-vertical {
+  border-left: 1px solid transparent;
+  height: 500px;
+  /* border-image: linear-gradient(to bottom, var(--gradient1), var(--gradient2));
+  border-image-slice: 1; */
+  margin-top: 15px;
+}
+
+.top-padding {
+  padding-top: 25px;
+}
