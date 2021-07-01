@@ -80,12 +80,6 @@ h6 {
   font-size: 3rem;
 }
 
-h5 {
-  background: var(--bgColor);
-  color: var(--textColor);
-  font-weight: 600;
-}
-
 .bio {
   font-weight: 300;
   font-size: 2rem;
@@ -118,9 +112,9 @@ h5 {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    padding: 4em 4em 4em 4em;
+@media screen and (max-width: 850px) {
+  .header-name {
+    text-align: center;
   }
 }
 
