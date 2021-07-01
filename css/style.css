@@ -116,6 +116,10 @@ h6 {
   .header-name {
     text-align: center;
   }
+
+  .header {
+    padding: 4em 2em 4em 2em;
+  }
 }
 
 .header-name {
