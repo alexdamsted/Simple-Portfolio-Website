@@ -29,12 +29,12 @@ a {
   text-decoration: none;
 }
 
-.height-change {
-  height: 650px !important;
+label {
+  font-size: 2rem;
 }
 
-.container {
-  width: 90% !important;
+.height-change {
+  height: 650px !important;
 }
 
 html {
@@ -60,6 +60,9 @@ html[data-theme="dark"] {
   --iconColor: rgb(219, 219, 219);
 }
 
+.switch {
+}
+
 .switch input[type="checkbox"]:checked + .lever {
   background-color: rgb(219, 219, 219) !important;
 }
@@ -70,6 +73,7 @@ html[data-theme="dark"] {
 
 .icons {
   color: var(--iconColor);
+  font-size: 5rem;
 }
 
 h6 {
@@ -113,4 +117,17 @@ h5 {
 
 .top-padding {
   padding-top: 25px;
+}
+
+.container {
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%;
 }
