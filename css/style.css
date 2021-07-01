@@ -60,9 +60,6 @@ html[data-theme="dark"] {
   --iconColor: rgb(219, 219, 219);
 }
 
-.switch {
-}
-
 .switch input[type="checkbox"]:checked + .lever {
   background-color: rgb(219, 219, 219) !important;
 }
@@ -120,7 +117,6 @@ h5 {
 }
 
 .container {
-  background-color: grey;
 }
 
 .row {
