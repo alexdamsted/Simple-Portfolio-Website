@@ -37,10 +37,6 @@ label {
   font-size: 2rem;
 }
 
-.height-change {
-  height: 650px !important;
-}
-
 html {
   --gradient1: #e0e0e0;
   --gradient2: rgb(255, 255, 255);
@@ -75,6 +71,7 @@ html[data-theme="dark"] {
 .icons {
   color: var(--iconColor);
   font-size: 5rem;
+  padding: 0.2em;
 }
 
 h6 {
@@ -90,12 +87,10 @@ h5 {
   font-weight: 600;
 }
 
-.hover-text-change:hover {
-  text-decoration: underline;
-}
-
 .bio {
   font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .header-name {
@@ -118,18 +113,20 @@ h5 {
 .container {
 }
 
-.header-image {
+.header {
   padding: 5em 15em 5em 15em;
+}
+
+.header-image .row {
+  padding-bottom: 2em;
+  justify-content: space-evenly;
 }
 
 .row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .col {
   width: 100%;
-}
-
-.circle {
 }

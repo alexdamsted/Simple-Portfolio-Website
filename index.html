@@ -29,48 +29,53 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-image row">
-          <img
-            src="images/photo.jpeg"
-            alt=""
-            class="circle responsive-img"
-            width="20%"
-          />
-          <h6 class="header-name">Alexander Damsted</h6>
+    <div class="container">
+      <header class="header">
+        <div class="header-image">
+          <div class="row">
+            <img
+              src="images/photo.jpeg"
+              alt=""
+              class="circle responsive-img"
+              width="20%"
+            />
+            <h6 class="header-name">Alexander Damsted</h6>
+          </div>
         </div>
-      </div>
-      <div class="container row">
-        <p class="grey-text text-darken-1 bio">
-          Hi there. I'm a software developer from New Zealand.
-        </p>
-        <br />
-        <p class="grey-text text-darken-1 bio">
+
+        <div class="row">
+          <p class="grey-text text-darken-1 bio">
+            Hi there. I'm a software developer from New Zealand. Ajda are my
+            initials.
+          </p>
           <!-- "There is just news. There is no good or bad." - Master Oogway -->
-          Ajda are my initials.
-        </p>
-        <a href="https://github.com/alexdamsted" target="_blank">
-          <i class="fa fa-github fa-2x icons"></i>
-        </a>
-        &nbsp;
-        <i class="fa fa-linkedin fa-2x icons"></i>
-        <div class="switch">
-          <label>
-            <span id="dark-mode-text">Dark mode (off)</span>
-            <input type="checkbox" id="switch" />
-            <span class="lever"></span>
+        </div>
+        <div class="row">
+          <a href="https://github.com/alexdamsted" target="_blank">
+            <i class="fa fa-github fa-2x icons"></i>
+          </a>
+
+          <i class="fa fa-linkedin fa-2x icons"></i>
+        </div>
+        <div class="row">
+          <div class="switch">
+            <label>
+              <span class="grey-text text-darken-1">Dark mode (off)</span>
+              <input type="checkbox" id="switch" />
+              <span class="lever"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <label class="grey-text text-lighten-1"
+            >Ajda ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
           </label>
         </div>
-        <br />
-        <label class="grey-text text-lighten-1"
-          >Ajda ©
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-        </label>
-      </div>
-    </header>
+      </header>
+    </div>
     <main container row></main>
 
     <!--  Scripts-->
