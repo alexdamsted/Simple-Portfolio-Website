@@ -113,18 +113,18 @@ h6 {
 }
 
 .header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header-image img {
-  width: 10%;
-  min-width: 10%;
+  width: 15%;
+  min-width: 15%;
   margin-right: 0.5em;
 }
 
 .header-image {
   padding: 5em 0 2em 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -136,5 +136,14 @@ h6 {
   color: var(--textColor);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 500px) {
+  .header-image img {
+    width: 25%;
+    min-width: 25%;
+    margin: 0 0 2em 0;
+  }
+
+  .header-name {
+    margin: 0;
+  }
 }
