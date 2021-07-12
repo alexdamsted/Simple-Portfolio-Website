@@ -29,69 +29,61 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <div class="header-image row">
           <img src="images/photo.jpeg" alt="" class="circle responsive-img" />
           <h6 class="header-name">Alexander Damsted</h6>
         </div>
-
-        <div class="row">
-          <p class="grey-text text-darken-1 bio">
-            Hi there. I'm a software developer from New Zealand. Ajda are my
-            initials.
+        <div class="header-content row">
+          <p class="biography">
+            Hello, I'm a software developer from New Zealand.
           </p>
           <!-- "There is just news. There is no good or bad." - Master Oogway -->
-        </div>
-        <div class="row">
-          <a href="https://github.com/alexdamsted" target="_blank">
-            <i class="fa fa-github fa-2x icons"></i>
-          </a>
-
-          <i class="fa fa-linkedin fa-2x icons"></i>
-        </div>
-        <div class="row">
-          <div class="switch">
-            <label>
-              <span id="dark-mode-text" class="grey-text text-darken-1"
-                >Dark mode (off)</span
-              >
-              <input type="checkbox" id="switch" />
-              <span class="lever"></span>
-            </label>
+          <div class="header-icons">
+            <a href="https://github.com/alexdamsted" target="_blank">
+              <i class="fa fa-github icons"></i>
+            </a>
+            <i class="fa fa-linkedin icons"></i>
+            <i class="fa fa-envelope icons"></i>
           </div>
         </div>
-        <div class="row">
-          <label class="grey-text text-lighten-1"
-            >Ajda ©
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-          </label>
-        </div>
-      </header>
+      </div>
+    </header>
 
-      <main>
-        <section class="project">
-          <h2 class="project-heading">Kiwiflip</h2>
-          <img src="images/Kiwiflip.png" alt="kiwiflip" class="project-img" />
-          <p class="project-description">
-            Kiwiflip is an app allowing people to auction their items online
-            within New Zealand. This project acts to provide an informational
-            website and landing page for Kiwiflip, built with React (Next.js)
-            and a headless CMS (Contentful).
-          </p>
-          <a href="" target="_blank">
+    <main>
+      <section class="project container">
+        <h1 class="recent-work">Recent Work</h1>
+        <h2 class="project-heading">Kiwiflip</h2>
+        <img src="images/Kiwiflip.png" alt="kiwiflip" class="project-img" />
+        <p class="project-description">
+          Kiwiflip is an app allowing people to auction their items online
+          within New Zealand. This project acts to provide an informational
+          website and landing page for Kiwiflip, built with React (Next.js) and
+          a headless CMS (Contentful).
+        </p>
+        <div class="main-icons row">
+          <a class="github-icon" href="" target="_blank">
+            <i class="fa fa-github fa-lg icons"></i>
+            <p>GitHub</p>
+          </a>
+          <a class="cloud-icon" href="" target="_blank">
             <i class="fa fa-cloud fa-lg icons"></i>
             <p>Visit the site</p>
           </a>
-          <a href="" target="_blank">
-            <i class="fa fa-github fa-lg icons"></i>
-            <p>GitHub (view the code)</p>
-          </a>
-        </section>
-      </main>
-    </div>
+        </div>
+        <hr />
+      </section>
+    </main>
+
+    <footer container>
+      <label>
+        Ajda ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </label>
+    </footer>
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
