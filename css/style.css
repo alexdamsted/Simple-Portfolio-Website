@@ -106,7 +106,6 @@ label {
 
 .recent-work {
   text-decoration: underline;
-  margin-bottom: 1.5em;
   font-weight: 600;
   font-size: 4rem;
 }
@@ -120,6 +119,7 @@ main {
 }
 
 .project-heading {
+  margin-top: 2em;
 }
 
 .project-description {
