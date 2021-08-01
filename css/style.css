@@ -76,7 +76,7 @@ label {
 }
 
 .header-image {
-  padding: 0 0 2em 0;
+  padding: 2em 0;
   /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
@@ -95,12 +95,9 @@ label {
   width: 60%;
 }
 
-.biography {
-  text-align: left;
-}
-
 .header-icons {
   padding: 2em 0 0 0;
+  border: 1px solid red;
 }
 
 .recent-work {
