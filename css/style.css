@@ -155,6 +155,7 @@ footer {
   .header-content {
     width: 100%;
     align-items: center;
+    text-align: center;
   }
 }
 
